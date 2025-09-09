@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wszystkie oferty</title>
+</head>
+<body>
+    <h1>Wszystkie oferty</h1>
+
+    {% if oferty %}
+        <ul>
+            {% for oferta in oferty %}
+                <li>
+                    <strong>{{ oferta.marka }} {{ oferta.model }}</strong>
+                    ({{ oferta.rok_produkcji }}) – {{ oferta.cena }} PLN
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Brak opublikowanych ofert.</p>
+    {% endif %}
+</body>
+</html>

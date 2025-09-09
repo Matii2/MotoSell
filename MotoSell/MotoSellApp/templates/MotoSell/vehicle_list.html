@@ -1,0 +1,26 @@
+{% extends "MotoSell/base.html" %}
+{% block title %}Lista ogłoszeń — MotoSell{% endblock %}
+{% block content %}
+  <h1>Ogłoszenia</h1>
+
+  {% if samochody %}
+    {% for s in samochody %}
+      <div class="card">
+        <h3>
+          <a href="{% url 'samochod_detail' s.id %}">
+            {{ s.tytul }} — {{ s.marka }} {{ s.model }} ({{ s.rok_produkcji }})
+          </a>
+        </h3>
+        <p>{{ s.opis|truncatechars:160 }}</p>
+        {% if s.zdjecie %}
+          <img src="{{ s.zdjecie.url }}" alt="{{ s.tytul }}">
+        {% endif %}
+        <div style="margin-top:8px;">
+          <a class="btn secondary" href="{% url 'samochod_update' s.id %}">Edytuj</a>
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>Brak ogłoszeń.</p>
+  {% endif %}
+{% endblock %}

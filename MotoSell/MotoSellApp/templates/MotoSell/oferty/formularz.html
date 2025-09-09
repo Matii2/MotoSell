@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz oferty</title>
+</head>
+<body>
+    <h1>{% if form.instance.pk %}Edytuj ofertę{% else %}Dodaj ofertę{% endif %}</h1>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Zapisz</button>
+    </form>
+
+    <p><a href="{% url 'moje_oferty' %}">⬅ Powrót do moich ofert</a></p>
+</body>
+</html>
