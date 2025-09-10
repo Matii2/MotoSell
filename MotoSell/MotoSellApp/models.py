@@ -2,7 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Samochod(models.Model):
-    # Stałe słowniki
     CATEGORY_CHOICES = {
         'motocykl': 'Motocykl',
         'osobowy': 'Osobowy',
@@ -15,7 +14,6 @@ class Samochod(models.Model):
         'lpg': 'LPG',
     }
 
-    # Pola modelu
     tytul = models.CharField(max_length=255)
     opis = models.TextField()
     kategoria = models.CharField(

@@ -10,6 +10,5 @@ urlpatterns = [
     path('publikuj/<int:pk>/', views.publikuj_oferte, name='publikuj_oferte'),
     path('usun/<int:pk>/', views.usun_oferte, name='usun_oferte'),
 
-    # 🔐 Logowanie użytkownika
     path('accounts/login/', auth_views.LoginView.as_view(template_name='MotoSell/login.html'), name='login'),
 ]
