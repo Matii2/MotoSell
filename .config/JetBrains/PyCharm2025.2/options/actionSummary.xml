@@ -1,37 +1,49 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="2" l="1757543270763" />
+    </e>
     <e n="$Delete">
-      <i c="5" l="1757362042163" />
+      <i c="6" l="1757543300374" />
     </e>
     <e n="$Paste">
-      <i c="1" l="1757280889717" />
+      <i c="2" l="1757451298229" />
     </e>
     <e n="$Undo">
-      <i c="1" l="1757362160841" />
+      <i c="2" l="1757543395994" />
     </e>
     <e n="Debug">
       <i c="2" l="1757281777488" />
     </e>
     <e n="EditorBackSpace">
-      <i c="110" l="1757363293443" />
+      <i c="194" l="1757543780699" />
     </e>
     <e n="EditorChooseLookupItemReplace">
-      <i c="2" l="1757363018899" />
+      <i c="3" l="1757543618542" />
     </e>
     <e n="EditorCopy">
-      <i c="39" l="1757364110060" />
+      <i c="44" l="1757543400806" />
     </e>
     <e n="EditorEnter">
-      <i c="2" l="1756932892270" />
+      <i c="3" l="1757450011837" />
+    </e>
+    <e n="EditorLeft">
+      <i c="1" l="1757541687918" />
     </e>
     <e n="EditorPaste">
-      <i c="58" l="1757364142211" />
+      <i c="63" l="1757544692065" />
     </e>
     <e n="EditorSelectWord">
-      <i c="49" l="1757364053709" />
+      <i c="53" l="1757543584455" />
     </e>
     <e n="EditorStartNewLine">
-      <i c="3" l="1757363133781" />
+      <i c="4" l="1757541669027" />
+    </e>
+    <e n="EditorUp">
+      <i c="154" l="1757543585815" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1757543372371" />
     </e>
     <e n="MoreRunToolbarActions">
       <i c="5" l="1757281783707" />
@@ -52,16 +64,16 @@
       <i c="1" l="1757280617553" />
     </e>
     <e n="Run">
-      <i c="64" l="1757364144583" />
+      <i c="66" l="1757541389361" />
     </e>
     <e n="RunClass">
       <i c="1" l="1756927620967" />
     </e>
     <e n="SaveAll">
-      <i c="4" l="1757364142947" />
+      <i c="22" l="1757544692857" />
     </e>
     <e n="Stop">
-      <i c="55" l="1757364143555" />
+      <i c="57" l="1757541661699" />
     </e>
     <e n="com.intellij.execution.ui.RunToolbarPopupKt$createCurrentFileWithInlineActions$2">
       <i c="1" l="1756925244897" />
@@ -76,7 +88,7 @@
       <i c="2" l="1757280499786" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="3" l="1757362042578" />
+      <i c="4" l="1757543300830" />
     </e>
     <e n="com.intellij.python.django.lang.template.livepreview.DjangoTemplatePreviewFileEditor$initNavigationToolbar$actionGroup$1$1">
       <i c="1" l="1757281222798" />

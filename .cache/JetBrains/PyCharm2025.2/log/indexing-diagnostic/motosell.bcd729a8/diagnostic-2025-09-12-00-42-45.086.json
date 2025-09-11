@@ -1,0 +1,51 @@
+{
+  "appInfo" : {
+    "build" : "252.26199.25",
+    "buildDate" : "2025-09-04T14:21:00Z[UTC]",
+    "productCode" : "PY",
+    "generated" : "2025-09-11T22:42:45.090098248Z",
+    "os" : "Linux 6.12.41+deb13-amd64",
+    "runtime" : "JetBrains s.r.o. 21.0.8 21.0.8+9-b1038.68"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 4,
+    "maxNumberOfIndexingThreads" : 3,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "MotoSell",
+    "times" : {
+      "scanningReason" : "Rebuild requested for index Stubs",
+      "scanningType" : "FULL",
+      "scanningId" : 8,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 0,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 0,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 0,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbModeStart" : "2025-09-11T22:42:43.286114523Z",
+      "dumbWallTimeWithPauses" : 1799983761,
+      "dumbWallTimeWithoutPauses" : 1799983761,
+      "updatingStart" : "2025-09-11T22:42:43.282114559Z",
+      "updatingEnd" : "2025-09-11T22:42:45.086098284Z",
+      "totalWallTimeWithPauses" : 1803983725,
+      "wallTimeOnPause" : 3999964,
+      "isCancelled" : true,
+      "cancellationReason" : "java.util.concurrent.CancellationException: Full scanning is queued",
+      "totalWallTimeWithoutPauses" : 1799983761
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 0,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ ]
+  }
+}

@@ -1,0 +1,463 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="MotoSell" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="DatabaseView">
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoStructureTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="29hgn2bhrhsdo" />
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "GitIgnore file": {
+      "usageCount": 1,
+      "lastUsed": 1757541656011
+    },
+    "HTML": {
+      "usageCount": 5,
+      "lastUsed": 1757541411148
+    },
+    "Python": {
+      "usageCount": 14,
+      "lastUsed": 1757543304262
+    }
+  }
+}]]></component>
+  <component name="FilesOpenedOnControllerState">
+    <option name="openedFilesInfos">
+      <list>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="230" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/.gitignore" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="1687" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/views.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="60" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/tests.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/apps.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/admin.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/__init__.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/__init__.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/asgi.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/forms.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/settings.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="519" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/urls.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSell/wsgi.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="339" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/models.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="0" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/MotoSellApp/migrations/0001_initial.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+        <OpenedFileInfo>
+          <option name="caretOffset" value="670" />
+          <option name="fileUrl" value="file://$PROJECT_DIR$/manage.py" />
+          <option name="selected" value="false" />
+        </OpenedFileInfo>
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration"><![CDATA[{}]]></component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/mateusz/MotoSell/.gitignore",
+    "/home/mateusz/MotoSell/MotoSellApp/views.py",
+    "/home/mateusz/MotoSell/MotoSell/urls.py",
+    "/home/mateusz/MotoSell/MotoSellApp/models.py",
+    "/home/mateusz/MotoSell/manage.py"
+  ]
+}]]></component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="1" lastUsage="1757541656011" />
+    </language>
+    <language id="HTML">
+      <summary usageCount="5" lastUsage="1757541411148" />
+    </language>
+    <language id="Python">
+      <summary usageCount="14" lastUsage="1757543304262" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MotoSell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mateusz/MotoSell}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MotoSell" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/mateusz/MotoSell}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/mateusz/MotoSell/MotoSell}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="MotoSell" />
+            <item name="MotoSell" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="MotoSell" />
+              <item name="dir{file:///home/mateusz/MotoSell}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/MotoSell" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="MotoSell" />
+                <item name="dir{file:///home/mateusz/MotoSell/MotoSell}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/__init__.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="__init__.py" />
+                  <item name="__init__.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/asgi.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="asgi.py" />
+                  <item name="asgi.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/forms.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="forms.py" />
+                  <item name="forms.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/settings.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="settings.py" />
+                  <item name="settings.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/urls.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="urls.py" />
+                  <item name="urls.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/MotoSell/wsgi.py" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="wsgi.py" />
+                  <item name="wsgi.py" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/MotoSellApp" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="MotoSellApp" />
+                <item name="dir{file:///home/mateusz/MotoSell/MotoSellApp}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/db.sqlite3" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/dbms.svg" iconPlugin="com.intellij.database" isLeaf="true" text="db.sqlite3" />
+                <item name="db.sqlite3" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/manage.py" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/com/jetbrains/python/parser/expui/python.svg" iconPlugin="PythonCore" isLeaf="true" text="manage.py" />
+                <item name="manage.py" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Django Server.MotoSell" />
+    </history>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TerminalTabsStorage">
+    <option name="tabs">
+      <TerminalSessionPersistedTab name="Remote" workingDirectory="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3073000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5005113" visible="true" weight="0.17639463" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Django.Structure" order="3" sideWeight="0.49948877" side_tool="true" visible="true" weight="0.17639463" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" weight="0.32967556" />
+      <window_info anchor="bottom" id="Python Packages" order="5" weight="0.09971374" />
+      <window_info anchor="bottom" id="Python Console" order="6" weight="0.1" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.32967556" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="2" weight="0.3458161" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <window_info anchor="right" id="Plots" order="5" weight="0.1" />
+      <unified_weights bottom="0.32967556" left="0.17639463" right="0.3458161" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Services</value>
+      <value>Python Packages</value>
+      <value>Run</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1757543346988">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="560" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1024.768" timestamp="1757543346988" />
+    <state width="1838" height="298" key="GridCell.Tab.0.bottom" timestamp="1757541808198">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="1838" height="298" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1024.768" timestamp="1757541808198" />
+    <state width="1838" height="298" key="GridCell.Tab.0.center" timestamp="1757541808198">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="1838" height="298" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1024.768" timestamp="1757541808198" />
+    <state width="1838" height="298" key="GridCell.Tab.0.left" timestamp="1757541808198">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="1838" height="298" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1024.768" timestamp="1757541808198" />
+    <state width="1838" height="298" key="GridCell.Tab.0.right" timestamp="1757541808198">
+      <screen x="0" y="0" width="1024" height="768" />
+    </state>
+    <state width="1838" height="298" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1024.768" timestamp="1757541808198" />
+    <state x="682" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1757543311514">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="682" y="451" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1024.768" timestamp="1757543311514" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/templates/MotoSell/vehicle_detail.html">
+      <provider selected="true" editor-type-id="DjangoTemplatePreviewFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/templates/MotoSell/vehicle_form.html">
+      <provider selected="true" editor-type-id="DjangoTemplatePreviewFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/templates/MotoSell/oferty/lista.html">
+      <provider selected="true" editor-type-id="DjangoTemplatePreviewFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/templates/MotoSell/oferty/moje.html">
+      <provider selected="true" editor-type-id="DjangoTemplatePreviewFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/asgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSell/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/templates/MotoSell/oferty/formularz.html">
+      <provider selected="true" editor-type-id="DjangoTemplatePreviewFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MotoSellApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
