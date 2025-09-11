@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "252.26199.25",
+    "buildDate" : "2025-09-04T14:21:00Z[UTC]",
+    "productCode" : "PY",
+    "generated" : "2025-09-11T22:49:31.360713568Z",
+    "os" : "Linux 6.12.41+deb13-amd64",
+    "runtime" : "JetBrains s.r.o. 21.0.8 21.0.8+9-b1038.68"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 4,
+    "maxNumberOfIndexingThreads" : 3,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "MotoSell",
+    "times" : {
+      "scanningReason" : "changes in: \"Python SDK Python 3.13 /usr/bin/python3.13 (python3.13, lib-dynload, dist-packages, dist-packages)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 20,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 119995400,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 0,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 115995553,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-09-11T22:49:31.224718781Z",
+      "updatingEnd" : "2025-09-11T22:49:31.360713568Z",
+      "totalWallTimeWithPauses" : 135994787,
+      "wallTimeOnPause" : 3999847,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 131994940
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 5427,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Python SDK Python 3.13 /usr/bin/python3.13 (python3.13, lib-dynload, dist-packages, dist-packages)",
+      "numberOfScannedFiles" : 5427,
+      "numberOfSkippedFiles" : 1,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 79996933,
+      "totalOneThreadTimeWithPauses" : 119995400,
+      "iterationAndScannersApplicationTime" : 0,
+      "filesCheckTime" : 115995553,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}
