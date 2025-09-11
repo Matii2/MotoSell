@@ -1,4 +1,5 @@
 <application>
+  <component name="BuiltInServerOptions" builtInServerPort="51250" />
   <component name="FileEditorProviderManager">{}</component>
   <component name="LangManager">
     <option name="languageName" value="Python" />
@@ -42,7 +43,7 @@
     "rider.trace.scenarios": "",
     "tab_selection_count": "3",
     "terminal.gen.one.option.visible": "false",
-    "trial.state.last.state": "EXPIRED",
+    "trial.state.last.state": "ACTIVE",
     "ts.lib.d.ts.version": "5.7.3"
   },
   "keyToStringList": {
