@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-class Samochod(models.Model):
+class Pojazd(models.Model):
     CATEGORY_CHOICES = {
         'motocykl': 'Motocykl',
         'osobowy': 'Osobowy',

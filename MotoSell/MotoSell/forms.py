@@ -1,7 +1,7 @@
 from django import forms
-from MotoSellApp.models import Samochod
+from MotoSellApp.models import Pojazd
 
 class VehicleForm(forms.ModelForm):
     class Meta:
-        model = Samochod
+        model = Pojazd
         exclude = ['uzytkownik', 'data_dodania', 'data_publikacji', 'usunieta']

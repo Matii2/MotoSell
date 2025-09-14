@@ -1,5 +1,5 @@
 """
-ASGI config for MotoSell project.
+ASGI config for MotoSellApp project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -13,4 +13,4 @@ from django.core.asgi import get_asgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'MotoSell.settings')
 
-application = get_asgi_applica
+application = get_asgi_application()
