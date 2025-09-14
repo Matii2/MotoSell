@@ -57,7 +57,7 @@ ROOT_URLCONF = 'MotoSell.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'MotoSell' / 'MotoSellApp/templates'],
+        'DIRS': [BASE_DIR / 'MotoSellApp' / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'MotoSellApp.wsgi.application'
+WSGI_APPLICATION = 'MotoSell.wsgi.application'
 
 
 # Database
