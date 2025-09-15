@@ -3,23 +3,44 @@
 {% load static %}
 <head>
     <meta charset="UTF-8">
-    <title>MotoSell</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>MotoSell - Strona glowna</title>
 </head>
 <body>
 
-{% if uzytkownik.is_authenticated %}
-    <h1>Zalogowany jako {{ uzytkownik.username }}</h1>
-    <a href="{% url 'wyloguj' %}"><button>Wyloguj się</button></a><br>
-    <a href="{% url 'kreator' %}">Stwórz nową ofertę</a><br>
-    <a href="{% url 'pojazdy' %}">Pokaż wszystkie opublikowane oferty</a><br>
-    <a href="{% url 'moje_pojazdy' %}">Zobacz swoje oferty</a>
-{% else %}
-    <h1>Niezalogowany</h1>
-    <a href="{% url 'rejestracja' %}">Zarejestruj się</a><br>
-    <a href="{% url 'logowanie' %}">Zaloguj się</a><br>
-    <a href="{% url 'pojazdy' %}">Pokaż oferty</a>
-{% endif %}
+<header>
+    <h1>Witaj na stronie glownej MotoSell!</h1>
+</header>
+
+<main>
+    {% if konto.is_authenticated %}
+        <section class="panel-uzytkownika">
+            <p>Witaj, <strong>{{ konto.username }}</strong>!</p>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'wyloguj' %}">Wyloguj</a></li>
+                    <li><a href="{% url 'dodaj_oferte' %}">Dodaj ofertę</a></li>
+                    <li><a href="{% url 'pojazdy' %}">Wszystkie oferty</a></li>
+                    <li><a href="{% url 'moje_pojazdy' %}">Moje oferty</a></li>
+                </ul>
+            </nav>
+        </section>
+    {% else %}
+        <section class="panel-goscia">
+            <p>Nie jesteś zalogowany!</p>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'rejestracja' %}">Rejestracja</a></li>
+                    <li><a href="{% url 'logowanie' %}">Logowanie</a></li>
+                    <li><a href="{% url 'pojazdy' %}">Przeglądaj oferty</a></li>
+                </ul>
+            </nav>
+        </section>
+    {% endif %}
+</main>
+
+<footer>
+    <p>&copy; MotoSell</p>
+</footer>
 
 </body>
 </html>
