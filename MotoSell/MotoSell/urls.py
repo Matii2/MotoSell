@@ -4,18 +4,18 @@ from MotoSellApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
+    path('', views.strona_glowna, name='strona_glowna'),
 
-    path('rejestracja/', views.rejestracja, name='rejestracja'),
-    path('logowanie/', views.logowanie, name='logowanie'),
+    path('rejestracja/', views.rejestruj, name='rejestracja'),
+    path('logowanie/', views.loguj, name='logowanie'),
     path('wyloguj/', views.wyloguj, name='wyloguj'),
 
-    path('pojazdy/', views.pojazdy, name='pojazdy'),
-    path('moje-pojazdy/', views.moje_pojazdy, name='moje_pojazdy'),
-    path('dodaj/', views.kreator, name='dodaj_oferte'),
-    path('oferta/<int:pk>/', views.oferta, name='oferta'),
-    path('edytuj/<int:pk>/', views.edytuj, name='edytuj_oferte'),
-    path('publikuj/<int:pk>/', views.publikuj, name='publikuj_oferte'),
-    path('cofnij-publikacje/<int:pk>/', views.cofnij_publikacje, name='cofnij_publikacje'),
-    path('usun/<int:pk>/', views.usun, name='usun_oferte'),
+    path('pojazdy/', views.lista_pojazdow, name='pojazdy'),
+    path('moje-pojazdy/', views.moje_oferty, name='moje_pojazdy'),
+    path('dodaj/', views.dodaj_oferte, name='dodaj_oferte'),
+    path('oferta/<int:identyfikator>/', views.szczegoly_oferty, name='oferta'),
+    path('edytuj/<int:identyfikator>/', views.edytuj_oferte, name='edytuj_oferte'),
+    path('publikuj/<int:identyfikator>/', views.opublikuj, name='publikuj_oferte'),
+    path('cofnij-publikacje/<int:identyfikator>/', views.cofnij_opublikowanie, name='cofnij_publikacje'),
+    path('usun/<int:identyfikator>/', views.oznacz_usuniety, name='usun_oferte'),
 ]
