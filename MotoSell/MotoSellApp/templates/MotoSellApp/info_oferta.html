@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>{{ pojazd.tytul }} – Szczegóły oferty | MotoSell</title>
+</head>
+<body>
+    <section>
+        <header>
+            <h1>Tytuł oferty: {{ pojazd.tytul }}</h1>
+            <p><strong>- Dodane przez:</strong> {{ pojazd.uzytkownik.username }}</p>
+            <p><strong>- Status:</strong>
+                {% if pojazd.czy_opublikowany %}
+                    Opublikowana {{ pojazd.data_publikacji }}
+                {% else %}
+                    Nieopublikowana
+                {% endif %}
+            </p>
+        </header>
+
+        <article>
+            <h2>Dane techniczne:</h2>
+            <ul>
+                <li><strong>Kategoria:</strong> {{ pojazd.kategoria }}</li>
+                <li><strong>Marka:</strong> {{ pojazd.marka }}</li>
+                <li><strong>Model:</strong> {{ pojazd.model }}</li>
+                <li><strong>Rok produkcji:</strong> {{ pojazd.rok_produkcji }}</li>
+                <li><strong>Przebieg:</strong> {{ pojazd.przebieg }} km</li>
+                <li><strong>Pojemność:</strong> {{ pojazd.pojemnosc_skokowa }} cm³</li>
+                <li><strong>Moc:</strong> {{ pojazd.moc }} KM</li>
+                <li><strong>Paliwo:</strong> {{ pojazd.rodzaj_paliwa }}</li>
+            </ul>
+
+            <h2>Opis pojazdu: </h2>
+            <p>- {{ pojazd.opis }}</p>
+
+            {% if pojazd.zdjecie %}
+                <h2>Zdjęcie:</h2>
+                <img src="{{ pojazd.zdjecie.url }}" alt="Zdjęcie pojazdu" style="max-height:300px;">
+            {% else %}
+                 <h2>Zdjęcie:</h2>
+                 <p><em>Brak zdjęcia dla tej oferty.</em></p>
+            {% endif %}
+        </article>
+    </section>
+
+    <footer>
+        <hr>
+        <nav>
+            <a href="{% url 'strona_glowna' %}">⭠ Powrót na stronę główną</a><br>
+            <a href="{% url 'pojazdy' %}">⭠ Wszystkie oferty</a><br>
+            {% if request.user.is_authenticated %}
+                <a href="{% url 'moje_pojazdy' %}">⭠ Moje oferty</a>
+            {% endif %}
+        </nav>
+    </footer>
+</body>
+</html>

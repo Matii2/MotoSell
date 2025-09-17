@@ -2,6 +2,9 @@ from django.urls import path
 from django.contrib import admin
 from MotoSellApp import views
 
+from django.conf import settings
+from django.conf.urls.static import static
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.strona_glowna, name='strona_glowna'),
@@ -19,3 +22,5 @@ urlpatterns = [
     path('cofnij-publikacje/<int:identyfikator>/', views.cofnij_opublikowanie, name='cofnij_publikacje'),
     path('usun/<int:identyfikator>/', views.oznacz_usuniety, name='usun_oferte'),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

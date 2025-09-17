@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Oferty pojazdów - MotoSell</title>
+</head>
+<body>
+    <header>
+        <h1>Oferty dostępne w serwisie</h1>
+    </header>
+
+    <section>
+        {% if pojazdy_wszystkie %}
+            <ul>
+                {% for pojazd in pojazdy_wszystkie %}
+                    {% if pojazd.czy_opublikowany and not pojazd.czy_usuniety %}
+                        <li>
+                            <article>
+                                 <h3><a href="{% url 'oferta' pojazd.id %}">{{ pojazd.tytul }}</a></h3>
+                                <p><em>Dodane przez:</em> <strong>{{ pojazd.uzytkownik.username }}</strong></p>
+                                <p><em>Marka i model:</em> {{ pojazd.marka }} {{ pojazd.model }}</p>
+                            </article>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Aktualnie brak opublikowanych ofert pojazdów.</p>
+        {% endif %}
+    </section>
+
+    <footer>
+        <nav>
+            <p>
+                <a href="{% url 'strona_glowna' %}">⭠ Wróć do strony głównej</a><br>
+                {% if request.user.is_authenticated %}
+                    <a href="{% url 'moje_pojazdy' %}">Przejdź do swoich ofert ⭢</a>
+                {% endif %}
+            </p>
+        </nav>
+    </footer>
+</body>
+</html>

@@ -37,5 +37,8 @@ class Pojazd(models.Model):
 
     usunieta = models.BooleanField(default=False)
 
+    czy_opublikowany = models.BooleanField(default=False)
+    czy_usuniety = models.BooleanField(default=False)
+
     def __str__(self):
         return f"{self.tytul} ({self.marka} {self.model})"

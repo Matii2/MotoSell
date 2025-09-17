@@ -48,41 +48,40 @@ def dodaj_oferte(zadanie):
 
 
 def lista_pojazdow(zadanie):
-    return render(zadanie, "MotoSellApp/pojazdy.html", {"lista": Pojazd.objects.all()})
+    return render(zadanie, "MotoSellApp/pojazdy.html", {"pojazdy_wszystkie": Pojazd.objects.all()})
 
 
 @login_required
 def moje_oferty(zadanie):
-    return render(zadanie, "MotoSellApp/moje_pojazdy.html", {"lista": Pojazd.objects.filter(wlasciciel=zadanie.user)})
+    return render(zadanie, "MotoSellApp/moje_pojazdy.html", {"lista": Pojazd.objects.filter(uzytkownik=zadanie.user)})
 
 
 def szczegoly_oferty(zadanie, identyfikator):
     filtr = Q(pk=identyfikator, czy_usuniety=False) & (
-        Q(czy_opublikowany=True) | Q(wlasciciel=zadanie.user) if zadanie.user.is_authenticated else Q(czy_opublikowany=True)
+        Q(czy_opublikowany=True) | Q(uzytkownik=zadanie.user) if zadanie.user.is_authenticated else Q(czy_opublikowany=True)
     )
     pojazd = get_object_or_404(Pojazd, filtr)
-    return render(zadanie, "MotoSellApp/oferta.html", {"pojazd": pojazd})
+    return render(zadanie, "MotoSellApp/info_oferta.html", {"pojazd": pojazd})
 
 
 @login_required
 def opublikuj(zadanie, identyfikator):
-    pojazd = get_object_or_404(Pojazd, pk=identyfikator, wlasciciel=zadanie.user)
+    pojazd = get_object_or_404(Pojazd, pk=identyfikator, uzytkownik=zadanie.user)
     pojazd.czy_opublikowany, pojazd.data_publikacji = True, timezone.now()
     pojazd.save()
-    return redirect("oferta", pk=identyfikator)
-
+    return redirect("info_oferta", pk=identyfikator)
 
 @login_required
 def cofnij_opublikowanie(zadanie, identyfikator):
-    pojazd = get_object_or_404(Pojazd, pk=identyfikator, wlasciciel=zadanie.user)
+    pojazd = get_object_or_404(Pojazd, pk=identyfikator, uzytkownik=zadanie.user)
     pojazd.czy_opublikowany, pojazd.data_publikacji = False, None
     pojazd.save()
-    return redirect("oferta", pk=identyfikator)
+    return redirect("info_oferta", pk=identyfikator)
 
 
 @login_required
 def oznacz_usuniety(zadanie, identyfikator):
-    pojazd = get_object_or_404(Pojazd, pk=identyfikator, wlasciciel=zadanie.user)
+    pojazd = get_object_or_404(Pojazd, pk=identyfikator, uzytkownik=zadanie.user)
     pojazd.czy_usuniety = True
     pojazd.save()
     return redirect("moje_pojazdy")
@@ -90,11 +89,11 @@ def oznacz_usuniety(zadanie, identyfikator):
 
 @login_required
 def edytuj_oferte(zadanie, identyfikator):
-    pojazd = get_object_or_404(Pojazd, pk=identyfikator, wlasciciel=zadanie.user)
+    pojazd = get_object_or_404(Pojazd, pk=identyfikator, uzytkownik=zadanie.user)
     formularz = PojazdForm(zadanie.POST or None, zadanie.FILES or None, instance=pojazd)
     if zadanie.method == "POST" and formularz.is_valid():
         zmieniony = formularz.save(commit=False)
-        zmieniony.wlasciciel = zadanie.user
+        zmieniony.uzytkownik = zadanie.user
         if zmieniony.czy_opublikowany and not zmieniony.data_publikacji:
             zmieniony.data_publikacji = timezone.now()
         zmieniony.save()
